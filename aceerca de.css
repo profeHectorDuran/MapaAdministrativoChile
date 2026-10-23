@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Bebas Neue", cursive;
+    background-image: url(img/fondo2.jpg);
+    margin-top: -280px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header { 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0,6),
+        rgba(0, 0, 0, 0,6)),
+        url(img/fondo2.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 70vh;
+     display: flex;
+     align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li {
+    font-size: 30px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #b69b8d;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.acercade {
+
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    height: auto;
+    color: #fffdfc;
+}
+.infor{
+    text-align: center;
+    color: #fffdfc;
+    font-size: 17px;
+    position: relative;
+    top: 100px;
+}
+.fondo-atras{
+    width: 900px;
+    height: auto;
+    position: relative;
+    top: 450px;
+    border-radius: 15px;
+
+}
+.contactotxt{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -130px;
+    left: 270px;
+    font-size: 40px;
+}
+.mapa{
+    position: relative;
+    width: 350px;
+    height: 520px;
+    top: -170px;
+    left: 760px;
+    border-radius: 10px;
+}
+footer {
+    background: #2f3433;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+}
